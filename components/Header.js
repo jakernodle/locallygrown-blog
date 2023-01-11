@@ -67,7 +67,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
         ref={navRef}
       >
         <div className="flex items-center">
-          <Link href="/">
+          <Link href="https://locallygrown.app/">
             <a aria-label={BLOG.title}>
               <div className="h-6">
                 <svg
