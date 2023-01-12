@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'LocallyGrown.app',
+  title: 'Find the best local farms in your area. Locally Grown connects you with local agriculture.',
   author: 'JohnAnge Kernodle',
   email: 'ja@locallygrown.app',
   link: 'locallygrown.app',
