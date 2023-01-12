@@ -76,7 +76,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
               height: '70%',
               marginRight: 'auto',
               '@media (max-width: 720px)': {
-                width: '0px',
+                width: '0px'
               },
             }}>
                 <Image src={logo} layout='fill' objectFit='contain' alt="local farms logo" />
