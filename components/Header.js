@@ -58,6 +58,20 @@ const Header = ({ navBarTitle, fullWidth }) => {
     // }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sentinalRef])
+
+  // commented out code for a title to show when the user scrolls
+  // {navBarTitle
+  //   ? (
+  //   <p className="ml-2 font-medium text-day dark:text-night header-name">
+  //     {navBarTitle}
+  //   </p>
+  //     )
+  //   : (
+  //   <p className="ml-2 font-medium text-day dark:text-night header-name">
+  //     {BLOG.title},{' '}
+  //     <span className="font-normal">{BLOG.description}</span>
+  //   </p>
+  //     )}
   return (
     <>
       <div className="observer-element h-4 md:h-12" ref={sentinalRef}></div>
@@ -82,18 +96,6 @@ const Header = ({ navBarTitle, fullWidth }) => {
                 <Image src={logo} layout='fill' objectFit='contain' alt="local farms logo" />
             </div>
           </Link>
-          {navBarTitle
-            ? (
-            <p className="ml-2 font-medium text-day dark:text-night header-name">
-              {navBarTitle}
-            </p>
-              )
-            : (
-            <p className="ml-2 font-medium text-day dark:text-night header-name">
-              {BLOG.title},{' '}
-              <span className="font-normal">{BLOG.description}</span>
-            </p>
-              )}
         </div>
         <NavBar />
       </div>

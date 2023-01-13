@@ -3,7 +3,7 @@ const BLOG = {
   author: 'JohnAnge Kernodle',
   email: 'ja@locallygrown.app',
   link: 'locallygrown.app',
-  description: 'This gonna be an awesome website.',
+  description: 'Locally grown is an app that brings healthy farm food to your doorstep, simplifies order managment for farmers, and makes finding the right farms easier than ever.',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
