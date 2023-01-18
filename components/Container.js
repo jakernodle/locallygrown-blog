@@ -18,6 +18,7 @@ const Container = ({ children, layout, fullWidth, ...customMeta }) => {
         <title>{meta.title}</title>
         {/* <meta content={BLOG.darkBackground} name="theme-color" /> */}
         <meta name="robots" content="follow, index" />
+        <link rel="icon" href="/favicon.ico"></link>
         <meta charSet="UTF-8" />
         {BLOG.seo.googleSiteVerification && (
           <meta
